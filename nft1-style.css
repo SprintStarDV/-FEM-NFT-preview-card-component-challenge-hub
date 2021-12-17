@@ -43,6 +43,8 @@ body {
     align-items: center;
 }
 
+/* created this div so that my nft image would stop being stuck at the top of the div.
+justify & align properties wouldn't work & it was the quickest way i could fix this issue. */
 .voidFill {
     border-radius: 8px 8px 0 0;
 }
