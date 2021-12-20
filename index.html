@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="description" content="coding challenge from Front End Mentor">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Orbitron&family=Outfit:wght@200&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="css/nft1-style.css">
+  <link rel="stylesheet" href="css/style-def.css">
   <title>Frontend Mentor | NFT preview card component</title>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <!-- <style>
@@ -14,35 +15,35 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style> -->
 </head>
+
 <body>
   <div class="superCont">
       <div class="central1">
           <div class="central2">
-              <div class="cardTop">
-                <div class="voidFill"></div>
-                <div class="nftWrap">
-                  <img src="images/image-equilibrium.jpg" alt="nft cube" class="nft">
-                </div>
+            <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h48v48H0z"/><path d="M24 9C14 9 5.46 15.22 2 24c3.46 8.78 12 15 22 15 10.01 0 18.54-6.22 22-15-3.46-8.78-11.99-15-22-15Zm0 25c-5.52 0-10-4.48-10-10s4.48-10 10-10 10 4.48 10 10-4.48 10-10 10Zm0-16c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6Z" fill="#FFF" fill-rule="nonzero"/></g></svg>
+            <img src="images/image-equilibrium.jpg" alt="Equilibrium #3429" class="nft">
+            <h1><a href="#">Equilibrium #3429</a></h1>
+            <main>
+              <p>Our Equilibrium collection promotes balance and calm.</p>
+              
+              <div class="content">
+                <img src="images/icon-ethereum.svg" alt="icon-ethereum" class="ethicon" aria-hidden="true">
+                <span class="ethcount">0.041 ETH</span>
+                <img src="images/icon-clock.svg" alt="clock" class="clock" aria-hidden="true">
+                <span class="timecount">3 days left</span>
+
               </div>
-              <div class="cardBody">
-                  <h3>Equilibrium #3429</h3>
-              <p>Our Equilibrium collection promotes balance & calm.</p>
-              </div>
-              <div class="cardBodyBottom">
-                  <img src="images/icon-ethereum.svg" alt="ethicon" class="ethicon">
-                  <p class="ethcount"><strong>O.O41 ETH</strong></p>
-                  <img src="images/icon-clock.svg" alt="clock" class="clock">
-                  <p class="timecount"><strong>3 days left</strong></p>
-              </div>
-              <div class="cardLine"></div>
-              <div class="cardBottom">
-                  <div class="profilePic">
-                      <img src="images/image-avatar.png" alt="profile" class="PP">
-                  </div>
-                  <div class="remainFooter">
-                      <p class="footer1"><strong>Creation of</strong></p><p class="footer2"><strong> Jules Wyvern</strong></p>
-                  </div>
-              </div>
+
+            </main>
+            
+            <div class="cardLine"></div>
+            
+            <footer>
+              <img src="images/image-avatar.png" alt="Jules Wyvern" class="PP">
+              <span class="footer1">Creation of</span> <span class="footer2"><a href="#">Jules Wyvern</a></span>
+            
+
+            </footer>
           </div>
       </div>
   </div>
